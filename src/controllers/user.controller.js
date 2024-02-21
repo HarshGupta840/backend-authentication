@@ -267,4 +267,4 @@ const updateUserCoverImage = asyncHandler(async (req, res) => {
 
 
 
-export { registerUser, loginUser, logoutUser, refreshAccessToken, updateAccountDetails, updateUserAvatar, updateUserCoverImage }
+export { registerUser, loginUser, logoutUser, refreshAccessToken, updateAccountDetails, updateUserAvatar, updateUserCoverImage, getCurrentUser, changeCurrentPassword }
